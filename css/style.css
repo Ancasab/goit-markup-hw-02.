@@ -1,0 +1,154 @@
+:root {
+    --blue: #2196F3;
+    --white: #FFFFFF;
+    --black: #212121;
+    --gray: #757575;
+    --black-background: #2F303A;
+    --gray-background: #F5F4FA;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+/* Header section style*/
+.header {
+}
+
+.header__logo a,
+ .footer__logo a {
+    font-family: var(--secondary-font);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    color: var(--black);
+    text-decoration: none;
+}
+.header__logo span,
+.footer__logo span {
+    color: var(--blue)
+}
+
+.header__navigation ul {
+    list-style: none;
+}
+
+.header__navigation a {
+    color: var(--black)
+}
+.header__navigation a,
+ .header__info a {
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px; 
+}
+.header__info a {
+    color: var(--gray);
+}
+.header__navigation a:hover,
+.header__info a:hover {
+    color: var(--blue);
+}
+
+/* Hero section style*/
+
+.hero-section {
+    
+}
+.hero-section__container {
+    text-align: center;
+    background-color: var(--black-background);
+    color: var(--white);
+    font-family: var(--primary-font);
+ 
+}
+.hero-section__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+
+}
+.hero-section__service {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    background-color: var(--blue);
+    color: var(--white);
+    cursor: pointer
+}
+.hero-section__service:hover {
+    transform: scale(1.1);
+}
+.hero-section__features ul {
+    list-style: none;
+    font-family: var(--primary-font);
+}
+
+.hero-section__features h5 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    color: var(--black)
+}
+
+.hero-section__features p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--gray)
+}
+/* What we do section style*/
+
+.we-do-section {
+    background-color: var(--white);
+}
+.we-do-section__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--black);
+    text-align: center;
+}
+
+/* Our Team section style*/
+.our_team {
+    background-color: var(--gray-background);
+    font-family: var(--primary-font);
+}
+.our_team__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--black);
+    text-align: center;
+}
+
+
+.our-team_card__nume {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black);
+    text-align: center;
+}
+.our-team_card__job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--gray);
+    text-align: center;
+}
+/* Footer section style*/
+.footer__address {
+    background-color: var(--black-background);
+    font-family: var(--primary-font);
+    color: var(--white);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    font-style: normal;
+    
+}
+ .footer__address a {
+    color: var(--white);
+    text-decoration: none;
+ }   
