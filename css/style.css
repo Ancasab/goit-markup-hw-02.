@@ -110,11 +110,11 @@
 }
 
 /* Our Team section style*/
-.our_team {
+.our-team {
     background-color: var(--gray-background);
     font-family: var(--primary-font);
 }
-.our_team__title {
+.our-team__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -122,15 +122,14 @@
     text-align: center;
 }
 
-
-.our-team_card__nume {
+.our-team-card__nume p {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     color: var(--black);
     text-align: center;
 }
-.our-team_card__job {
+.our-team-card__job p {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
