@@ -19,7 +19,7 @@ color: var(--black);
     font-family: var(--secondary-font);
     font-size: 26px;
     font-weight: 700;
-    line-height: 31px;
+    line-height: 1.2;
     /* color: var(--black); */
     text-decoration: none;
 }
@@ -42,7 +42,7 @@ color: var(--black);
     /* font-family: var(--primary-font); */
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px; 
+    line-height: 1.14; 
 }
 .header__info a {
     color: var(--gray);
@@ -67,13 +67,13 @@ color: var(--black);
 .hero-section__title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.4;
 
 }
 .hero-section__service {
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     background-color: var(--blue);
     color: var(--white);
     cursor: pointer
@@ -90,27 +90,27 @@ color: var(--black);
 .hero-section__features h5 {
     font-size: 14px;
     font-weight: 700;
-    line-height: 16px;
+    line-height: 1.14;
     /* color: var(--black) */
 }
 
 .hero-section__features p {
     font-size: 14px;
     /* font-weight: 400; */
-    line-height: 24px;
+    line-height: 1.7;
     color: var(--gray)
 }
 /* What we do section style*/
 
 .we-do-section {
     background-color: var(--white);
+    text-align: center;
 }
 .we-do-section__title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2;
     /* color: var(--black); */
-    text-align: center;
 }
 
 /* Our Team section style*/
@@ -122,19 +122,19 @@ color: var(--black);
 .team-section__title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2;
     /* color: var(--black); */
 }
 .team-section__card__nume {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     /* color: var(--black); */
 }
 .team-section__card__job {
     /* font-weight: 400; */
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     color: var(--gray);
 }
 
@@ -145,7 +145,7 @@ color: var(--black);
     color: var(--white);
     font-weight: 400;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     font-style: normal;  
 }
 .footer__address a {
@@ -164,7 +164,7 @@ color: var(--black);
  .portfolio__navigare button {
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     text-align: center;
     background-color: var(--gray-background);
     cursor: pointer
@@ -178,11 +178,11 @@ color: var(--black);
 .portofoliu__exemplu__nume {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
 }
 .portofoliu__exemplu__tip {
     /* font-weight: 400; */
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     color: var(--gray)
 }
