@@ -151,7 +151,12 @@ color: var(--black);
 .footer__address a {
     color: var(--white);
     text-decoration: none;
+    cursor: pointer;
  } 
+.footer__address a:hover,
+.footer__address a:focus {
+    color: var(--blue);
+}
    
  /* Portofoliu style */
 
