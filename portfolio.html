@@ -3,146 +3,164 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title> 
+    <title>Portofoliu</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--header section-->
-    <header>
-      <div>
+    <header class="header">
+      <div class="header__logo">
         <a href="#"
           ><p><span>Web</span>Studio</p></a
         >
       </div>
-      <nav>
+      <nav class="header__navigation">
         <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
+          <li><a href="./index.html">Studio</a></li>
+          <li><a href="./portfolio.html">portfolio</a></li>
           <li><a href="">Contacts</a></li>
         </ul>
       </nav>
-      <div>
+      <div class="header__info">
         <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a href="tel:+12127724150">+1 212-772-4150</a>
       </div>
     </header>
-    <!--portiune principala a paginii web-->
+    <!--portiune principala a paginii Portofoliu-->
     <main>
-      <!--div cu navigare-->
-      <div>
+      
+      <!--Section cu activitatile din Portofoliu-->
+      <section class="portofoliu">
+          <!--div cu navigare-->
+      <div class="portfolio__navigare">
         <ul>
-          <li><a href="">All</a></li>
-          <li><a href="">Web-sites</a></li>
-          <li><a href="">Apps</a></li>
-          <li><a href="">Design</a></li>
-          <li><a href="">Marketing</a></li>
+          <li><button type="button">
+            All
+          </button></li>
+          <li><button type="button">
+            Web-sites
+          </button></li>
+          <li><button type="button">
+            Apps
+          </button></li>
+          <li><button type="button">
+            Design
+          </button></li>
+          <li><button type="button">
+            Marketing
+          </button></li>
         </ul>
-      </div>
-      <!--Section cu activitatile din portfolio-->
-      <section>
+      </div class=portofoliu__exemple>
         <!--Container web-site Technoduck-->
-        <div>
+        <div class="portofoliu__exemplu">
           <img
             src="./images/img_p1.jpg"
             alt="website with 3 pictures"
             width="370"
             height="294"
           />
-          <p>Technoduck</p>
-          <p>Web-site</p>
+          <p class="portofoliu__exemplu__nume">Technoduck</p>
+          <p class="portofoliu__exemplu__tip">Web-site</p>
         </div>
         <!--Container 2: design - Poster-->
-        <div>
+        <div class="portofoliu__exemplu">
           <img
             src="./images/img_p2.jpg"
             alt="bastketball poster"
             width="370"
             height="294"
           />
-          <p>Poster New Orlean vs Golden Star</p>
-          <p>Design</p>
+          <p class="portofoliu__exemplu__nume">Poster New Orlean vs Golden Star</p>
+          <p class="portofoliu__exemplu__tip">Design</p>
         </div>
         <!--Container 3: Apps - restaurant -->
-        <div>
+        <div class="portofoliu__exemplu">
           <img
             src="./images/img_p3.jpg"
             alt="sigla Seafood Restaurant"
             width="370"
             height="294"
           />
-          <p>Seafood Restaurant</p>
-          <p>Apps</p>
+          <p class="portofoliu__exemplu__nume">Seafood Restaurant</p>
+          <p class="portofoliu__exemplu__tip">Apps</p>
         </div>
         <!--Container 4: marketing-->
-        <div>
+        <div class="portofoliu__exemplu">
           <img
             src="./images/img_p4.jpg"
             alt="headset"
             width="370"
             height="294"
           />
-          <p>Project Prime</p>
-          <p>Marketing</p>
+          <p class="portofoliu__exemplu__nume">Project Prime</p>
+          <p class="portofoliu__exemplu__tip">Marketing</p>
         </div>
         <!--Container 5: Apps - project boxes -->
-        <div>
+        <div class="portofoliu__exemplu">
           <img src="./images/img_p5.jpg" alt="boxes" width="370" height="294" />
-          <p>Project Boxes</p>
-          <p>Apps</p>
+          <p class="portofoliu__exemplu__nume">Project Boxes</p>
+          <p class="portofoliu__exemplu__tip">Apps</p>
         </div>
         <!--Container 6: web-site inspiration has no borders-->
-        <div>
+        <div class="portofoliu__exemplu">
           <img
             src="./images/img_p6.jpg"
             alt="black screen with the website"
             width="370"
             height="294"
           />
-          <p>Inspiration has no Borders</p>
-          <p>Web-site</p>
+          <p class="portofoliu__exemplu__nume">Inspiration has no Borders</p>
+          <p class="portofoliu__exemplu__tip">Web-site</p>
         </div>
         <!--Container 7: design - leaflet-->
-        <div>
+        <div class="portofoliu__exemplu">
           <img
             src="./images/img_p7.jpg"
             alt="bastketball poster"
             width="370"
             height="294"
           />
-          <p>Limited Edition</p>
-          <p>Design</p>
+          <p class="portofoliu__exemplu__nume">Limited Edition</p>
+          <p class="portofoliu__exemplu__tip">Design</p>
         </div>
         <!--Container 8: marketing-->
-        <div>
+        <div class="portofoliu__exemplu">
           <img
             src="./images/img_p8.jpg"
             alt="tag with lab"
             width="370"
             height="294"
           />
-          <p>Project LAB</p>
-          <p>Marketing</p>
+          <p class="portofoliu__exemplu__nume">Project LAB</p>
+          <p class="portofoliu__exemplu__tip">Marketing</p>
         </div>
         <!--Container 9: Apps - growing businesss -->
-        <div>
+        <div class="portofoliu__exemplu">
           <img
             src="./images/img_p9.jpg"
             alt="laptop with Apps"
             width="370"
             height="294"
           />
-          <p>Growing Business</p>
-          <p>Apps</p>
+          <p class="portofoliu__exemplu__nume">Growing Business</p>
+          <p class="portofoliu__exemplu__tip">Apps</p>
         </div>
-      </sectionv>
+      </section>
     </main>
     <!--Footer section-->
-    <footer>
-      <div>
+    <footer class="footer">
+      <div class="footer__logo">
         <a href="#"
           ><p><span>Web</span>Studio</p></a
         >
       </div>
-      <address>
+      <address class="footer__address">
         695 Park Ave, NY 10065, USA <br />
         <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
         <a href="tel:+12127724150">+1 212-772-4150</a>
